@@ -1,0 +1,86 @@
+body {
+    background-color: #F8EFE4;
+    background: url(../img/bg/bg.svg);
+    background-size: 100% auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 10% 5% 10%;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 4px;
+    line-height: 1em;
+}
+
+h2 {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 40px;
+    min-width: 350px;
+    min-height: auto;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.quote {
+    display: inline-block;
+    max-width: 488px;
+}
+
+.text {
+    color: #282120;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.profile {
+    display: inline-flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+}
+
+.gallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.galleryItem {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+}
